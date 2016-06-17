@@ -1,0 +1,80 @@
+body
+  {
+  	margin: 0; /*Lado izquierdo*/
+    margin-top:-15px; /*Para */
+    height: 100;
+  	padding: 0;
+  	background: #F7819F;
+    font-family: Harrington;
+  }
+h1
+  {
+  	color: #FFF;
+    padding: 20px;
+    text-align: center;
+  }
+ul/*le quita los puntos a las listas*/
+  {
+    list-style: none;
+  }
+
+.titulo_principal
+   {
+   	background: #FA5882;
+   }
+
+
+.menu_navegacion
+  {
+    text-align: center;
+  }
+
+.menu_navegacion
+  ul 
+   {
+    margin: 15px;
+    padding: 10px;/*El padding sirve pára el margen interior de 
+    un bloque donde puede ser modificado */
+   }
+
+.menu_navegacion
+   li
+     {
+      display: inline;/*Para que la lista este sobre la misma linea*/
+     }
+.menu_navegacion
+    a 
+     {
+      margin: 10px;
+      padding: 10px;
+      text-decoration: none;
+      background: black;
+      color: white;
+     }
+.menu_navegacion
+   li:hover a /*El hover indica que (cuando pase el cursor)se marcara dentro
+   del li solo lo que es a con un color definido */
+      {
+        background: #B40431;
+      }
+.menu_navegacion/*Para que se quede seleccionado ese bloque que se manda a llamar*/
+   li.active a, .menu_navegacion li:hover a 
+      {
+        background: #B40431;
+      }
+.info_personal
+      {
+        text-align: center;
+        margin-top: 50px;
+        border-bottom: 1px solid #B40431;
+      }
+.mx
+       {
+        color: #B40431; 
+       }
+.circulo /*para cortar */
+     {
+       border-radius: 50%;
+     }
+
+
