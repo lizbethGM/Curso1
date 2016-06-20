@@ -1,0 +1,67 @@
+body
+  {
+  	margin: 0; /*Lado izquierdo*/
+    margin-top:-15px; /*Para */
+    height:100;
+  	padding:0;
+  	background:#F86729;
+    font-family: cursive;
+    font-size:20px;
+  }
+h1
+  {
+  	color: #FFF;
+    padding: 25px;
+    margin: 15px;
+    font-size:50px;
+    font-family: cursive;
+
+}
+.titulo_principal
+   {
+   	background: #843716;
+   }
+
+
+.menu_navegacion
+  {
+    text-align: center;
+  }|
+
+.menu_navegacion ul{
+    margin: 20px;
+    padding: 10px;
+    list-style: none;
+
+   }
+
+.menu_navegacion li{
+      display: inline;/*Para que la lista este sobre la misma linea*/
+     }
+.menu_navegacion a{
+      margin: 10px;
+      padding: 10px;
+      text-decoration: none;
+      background: black;
+      color: white;
+     }
+.menu_navegacion 
+li:hover a /*El hover indica que (cuando pase el cursor)se marcara dentro
+   del li solo lo que es a con un color definido */
+      {
+        background: #843716;
+      }
+.menu_navegacion/*Para que se quede seleccionado ese bloque que se manda a llamar*/
+   li.active a, .menu_navegacion li:hover a 
+      {
+        background: #843716;
+      }
+   p{
+        color: #FFF;
+    padding: 25px;
+    margin: 15px;
+    text-align: center;
+    font-size:20px;
+    font-family: cursive;
+      }
+
