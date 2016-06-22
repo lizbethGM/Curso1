@@ -1,26 +1,26 @@
 body
   {
-  	margin: 0; /*Lado izquierdo*/
-    margin-top:-15px; /*Para */
+    margin: 0; 
+    margin-top:-15px; 
     height: 100;
-  	padding: 0;
-  	background: #F7819F;
-    font-family: cursive;
+    padding: 0;
+    background: #F7819F;
+    font-family: Harrington;
   }
 h1
   {
-  	color: #FFF;
+    color: #fff;
     padding: 20px;
     text-align: center;
   }
-ul/*le quita los puntos a las listas*/
+ul
   {
     list-style: none;
   }
 
 .titulo_principal
    {
-   	background: #FA5882;
+    background: #FA5882;
    }
 
 
@@ -33,14 +33,13 @@ ul/*le quita los puntos a las listas*/
   ul 
    {
     margin: 15px;
-    padding: 10px;/*El padding sirve pára el margen interior de 
-    un bloque donde puede ser modificado */
+    padding: 10px;
    }
 
 .menu_navegacion
    li
      {
-      display: inline;/*Para que la lista este sobre la misma linea*/
+      display: inline;
      }
 .menu_navegacion
     a 
@@ -52,12 +51,11 @@ ul/*le quita los puntos a las listas*/
       color: white;
      }
 .menu_navegacion
-   li:hover a /*El hover indica que (cuando pase el cursor)se marcara dentro
-   del li solo lo que es a con un color definido */
+   li:hover a 
       {
         background: #B40431;
       }
-.menu_navegacion/*Para que se quede seleccionado ese bloque que se manda a llamar*/
+.menu_navegacion
    li.active a, .menu_navegacion li:hover a 
       {
         background: #B40431;
@@ -72,9 +70,20 @@ ul/*le quita los puntos a las listas*/
        {
         color: #B40431; 
        }
-.circulo /*para cortar */
+.circulo 
      {
        border-radius: 50%;
      }
-
-
+.sub
+{
+  color: black;
+}
+.justificado
+   {
+    text-align: justify;
+   }
+.link
+   {
+    text-decoration: none;
+    color: black;
+   }
