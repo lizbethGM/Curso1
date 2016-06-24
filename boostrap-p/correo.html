@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="imagenes/taco.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
     <title>TaquitoMX</title>
 
@@ -28,47 +29,64 @@
             <li role="presentation"><a href="index.html">Inicio</a></li>
             <li role="presentation"><a href="about.html">TaquitoMX</a></li>
             <li role="presentation"><a href="contact.html">La Carta</a></li>
-            <li role="presentation" class="active"><a href="ubi.html">Ubicación</a></li>
+            <li role="presentation"><a href="ubi.html">Ubicación</a></li>
             <li role="presentation"><a href="cont.html">Fiestas y Eventos</a></li>
-            <li role="presentation"><a href="correo.html">Ingresar</a></li>
+            <li role="presentation" class="active"><a href="correo.html">Ingresar</a></li>
           </ul>
         </nav>
         <h3 class="text-muted">TaquitoMX</h3>
       </div>
 
-      <div class="jumbotron">
-        <h1>Ubicación</h1>
-        <p class="lead">¡Visitanos, que esas esperando!</p>
-      </div>
-        
+<h1>Iniciar sesion</h1>
+
+<p> Inicia pararecibir las promociones </p>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Correo</label>
+    <input type="email" class="form-control" id="usuario" placeholder="Tu correo aqui">
+  </div>
 
 
-      <div class="row">
-        <div class="col-md-6">
-          <h4>Ubicación</h4>
-         <img src="imagenes/u.jpg" height="250" width="270" alt="Tacos de pastor con queso">
+  
+  <div class="form-group">
+    <label for="exampleInputPassword1">Contraseña</label>
+    <input type="password" class="form-control" id="pass" placeholder="Tu contraseña aqui">
+  </div>
 
-          <p>Nos ubicamos en Calzada del Hueso,Tlalpan,Ex-Hacienda Coapa,04859 Ciudad de México, D.F. en PLAZAS FUENTE, frente a la Escuela Nacional Preparatoria No.5 (justo en el punto gris). </p>
 
-          <p>!Contamos con estacionamiento para nuestros clientes¡</p>
+  
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Recordar
+    </label>
 
-      </div>
 
-        <div class="col-md-6">
-          <h4>HORARIOS</h4>
-         
-            <ul>
-                <li>Estamos de lunes a jueves de 3pm a 10:00 pm</li>
-                <li>Viernes y sabados de 3:00pm a 02:00am</li>
-                <li>DE BISTECK</li>
-                <li>Domingos: 1:30pm a 6:30pm</li>
-             </ul>
 
-             <p>!ABRIMOS TODOS LOS DIAS DEL AÑO¡</p>
-             <p>TE ESPERAMOS CON EL MEJOR SERVICIO... </p>
-        </div>
-      </div>
-     
+    <br><br>
+    <label>
+      <input type="radio" name="genero"> Hombre
+    </label>
+
+
+    <label>
+      <input type="radio" name="genero"> Mujer
+    </label>
+
+</div>
+
+
+
+ <button type="submit" id="enviar" class="btn btn-info" >Enviar</button>
+
+
+
+    <!--libreria de iquery-->
+  <script src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+
+
+
       <footer class="footer">
         <p>&copy; 2016 LIZ - PROTECO</p>
       </footer>
